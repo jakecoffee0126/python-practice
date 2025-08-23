@@ -1,6 +1,11 @@
+x = 300
+
+
 def myfunc():
-    x = 300
+    x = 200
     print(x)
 
 
 myfunc()
+
+print(x)

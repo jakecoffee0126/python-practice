@@ -1,13 +1,6 @@
-this is for file handling in Python.
-It's for testing.
-Please try your best.'nthis is append copy
-this is append copy
-this is append copy
-this is append copy
-this is append copy
-this is append copy
-this is append copy
-this is append copy
+this is jake
+this is marry
+this is egg
 this is append copy
 this is append copy
 this is append copy

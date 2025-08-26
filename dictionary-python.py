@@ -1,0 +1,17 @@
+
+def print_day_of_week(day_number):
+    days_of_week = {
+        1: "Monday",
+        2: "Tuesday",
+        3: "Wednesday",
+        4: "Thursday",
+        5: "Friday",
+        6: "Saturday",
+        7: "Sunday",
+    }
+
+    print(days_of_week.get(day_number, "Invalid day"))
+
+
+print_day_of_week(2)
+print_day_of_week(8)

@@ -3,7 +3,7 @@
 
 import os
 with open('demo.txt', 'a') as f:
-    f.write('\n' + "this is append copy")
+    f.write("\nthis is append copy")  # make sure to use '\n'
 
 # open and read the file after the appending:
 with open('demo.txt') as f:
@@ -14,6 +14,11 @@ with open('demo.txt') as f:
 # Overwrite Existing Content
 with open('demo2.txt', 'w') as f:
     f.write("WOOPS! I have deleted the content!")
+
+# write a html
+with open('index.html', 'w') as ff:  # it will auto to create a file if its not there
+    ff.write("<h1>This is Jake</h1>")
+
 
 # open and read the file after the appending:
 with open("demo2.txt") as f:

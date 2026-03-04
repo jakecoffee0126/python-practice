@@ -1,3 +1,5 @@
+# https://www.youtube.com/watch?v=rLyYb7BFgQI
+
 class Microwave:
     def __init__(self, brand, power):
         self.brand = brand
